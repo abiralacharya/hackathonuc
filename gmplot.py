@@ -14,5 +14,5 @@ gmap3.scatter( latitude1, longitude1, '#FF0000',size = 50, marker = False )
 #Your Google_API_Key
 gmap3.apikey = 'AIzaSyDmllc9JkG8RRgTiriuzx-mwIziEyrzB7c'
 # save it to html
-gmap3.draw(r"C:\\Users\\asis\\Desktop\\map11.html")
-webbrowser.open("C:\\Users\\asis\\Desktop\\map11.html")
+gmap3.draw("index.html")
+webbrowser.open("index.html")
