@@ -201,14 +201,6 @@ while 1:
         color3='#008000'
     if point_1_first==point_1_second==point_1_third:
         color1='#008000'; color2='#008000'; color3='#008000';
-        
-        
-        
-        
-        
-        
-        
-    
     
     # Scatter map
     gmap3.scatter( latitude1, longitude1, color1,size = 200, marker = False ) 
@@ -234,7 +226,6 @@ while 1:
     webbrowser.open("index.html")
     time.sleep(5)
     
-    
     ROOT1 = tk.Tk()
     
     ROOT1.withdraw()
@@ -259,9 +250,6 @@ while 1:
  
         from twilio.rest import Client
         
-        
-        
-        
         # Your Account Sid and Auth Token from twilio.com/console
         
         # DANGER! This is insecure. See http://twil.io/secure
@@ -278,17 +266,10 @@ while 1:
                                       body=website,
         
                                       from_='+16237772033',
-        
-                                      
-        
                                       to='+14193221625'
-        
                                   )
-
 
         print(message.sid)
     
     if USER_INP=='no':
         break
-        
-        
