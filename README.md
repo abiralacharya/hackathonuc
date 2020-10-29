@@ -1,1 +1,1 @@
-# hackathonuc
+This is a hackathon project which helps users to find a safe property (a home) in a certain area. This project analyzes crime rate of certain neighborhood in Baltimore, MD and helps user to find a safe neighborhood and sends the street view of that property to user's cell phone using Twilio's SMS service.
